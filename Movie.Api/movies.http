@@ -1,0 +1,15 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+GET http://localhost:5209/
+###
+GET http://localhost:5209/movie/list
+###
+GET http://localhost:5209/movie/1
+
+###
+POST http://localhost:5209/movie
+Content-Type: application/json
+{
+    "title":"testAdd1",
+    "director":"testDirector",
+    "releaseDate":"2024-12-04"
+} 
