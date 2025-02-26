@@ -14,10 +14,12 @@ Content-Type: application/json
     "releaseDate":"2024-12-04"
 } 
 ###
-PUT http://localhost:5209/movie/1
+PUT http://localhost:5209/movie/2
 Content-Type: application/json
 {
     "title":"testUpdate1",
     "director":"testDirector",
     "releaseDate":"2024-12-04"
 }
+###
+DELETE http://localhost:5209/movie/delete/2

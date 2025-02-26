@@ -1,5 +1,6 @@
 using Movie.Api.Dtos;
 using Microsoft.AspNetCore.Http;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -14,7 +15,13 @@ List<MovieDto> movies = [
 app.MapGet("/Movie/list", () => movies).WithName("ListMovies");
 app.MapGet("/Movie/{id}", (int id ) => movies.Find(x=>x.Id==id))
    .WithName("List");
+app.MapDelete("Movie/delete/{id}", (int id) =>
+{
+    movies.RemoveAll(x => x.Id == id);
 
+    return Results.NoContent();
+
+});
 
 app.MapPut("Movie/{id}", (int id,UpdateMovieDto updateMovieDto) =>
 {
