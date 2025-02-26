@@ -13,3 +13,11 @@ Content-Type: application/json
     "director":"testDirector",
     "releaseDate":"2024-12-04"
 } 
+###
+PUT http://localhost:5209/movie/1
+Content-Type: application/json
+{
+    "title":"testUpdate1",
+    "director":"testDirector",
+    "releaseDate":"2024-12-04"
+}

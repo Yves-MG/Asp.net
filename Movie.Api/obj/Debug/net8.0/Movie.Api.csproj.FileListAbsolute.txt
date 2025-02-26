@@ -2,15 +2,12 @@ D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\appsettings.Development.j
 D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\appsettings.json
 D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.staticwebassets.endpoints.json
 D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.exe
-D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.deps.json
-D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.runtimeconfig.json
-D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.dll
-D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.pdb
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.GeneratedMSBuildEditorConfig.editorconfig
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.AssemblyInfoInputs.cache
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.AssemblyInfo.cs
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.csproj.CoreCompileInputs.cache
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.sourcelink.json
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\scopedcss\bundle\Movie.Api.styles.css
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -25,5 +22,9 @@ D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\staticwebassets.upToDateC
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.dll
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\refint\Movie.Api.dll
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.pdb
+D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.deps.json
+D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.runtimeconfig.json
+D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.dll
+D:\test\Movie.Api\Movie.Api\Movie.Api\bin\Debug\net8.0\Movie.Api.pdb
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\Movie.Api.genruntimeconfig.cache
 D:\test\Movie.Api\Movie.Api\Movie.Api\obj\Debug\net8.0\ref\Movie.Api.dll

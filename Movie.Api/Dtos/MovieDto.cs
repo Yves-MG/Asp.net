@@ -8,3 +8,4 @@
      DateOnly ReleaseDate
     );
 }
+

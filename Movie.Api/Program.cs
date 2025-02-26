@@ -14,6 +14,16 @@ List<MovieDto> movies = [
 app.MapGet("/Movie/list", () => movies).WithName("ListMovies");
 app.MapGet("/Movie/{id}", (int id ) => movies.Find(x=>x.Id==id))
    .WithName("List");
+
+
+app.MapPut("Movie/{id}", (int id,UpdateMovieDto updateMovieDto) =>
+{
+    var index = movies.FindIndex(x => x.Id == id);
+    movies[index] = new MovieDto(id, updateMovieDto.Title, updateMovieDto.Director, updateMovieDto.ReleaseDate);
+
+    return Results.NoContent();
+});
+
 app.MapPost("/Movie/", (CreateMovieDto createMovieDto) =>
 {
     MovieDto movieDto = new
